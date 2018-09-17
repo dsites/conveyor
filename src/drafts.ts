@@ -6,7 +6,7 @@
 import * as config from 'config'
 import * as UUID from 'uuid/v4'
 
-import {JsonRpcAuthMethodContext as JCtx, JsonRpcError} from '@steemit/koa-jsonrpc'
+import {JsonRpcAuthMethodContext as JCtx, JsonRpcError} from 'dpay-json-rpc'
 import {store} from './store'
 
 const KEY_PREFIX = config.get('name')

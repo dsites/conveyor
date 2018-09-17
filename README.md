@@ -1,9 +1,6 @@
 
-conveyor
+dSite API
 ========
-
-Steemit API
-
 
 Feature flags
 -------------

@@ -3,7 +3,7 @@ import * as assert from 'assert'
 import * as http from 'http'
 import * as UUID from 'uuid/v4'
 import * as fs from 'fs'
-import {utils} from '@steemit/koa-jsonrpc'
+import {utils} from 'dpay-json-rpc'
 import {PrivateKey} from 'dsteem'
 import {join as joinPath} from 'path'
 

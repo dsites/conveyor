@@ -2,7 +2,7 @@ import 'mocha'
 import * as assert from 'assert'
 import * as http from 'http'
 import {PrivateKey} from 'dsteem'
-import {utils} from '@steemit/koa-jsonrpc'
+import {utils} from 'dpay-json-rpc'
 
 import {RPC, assertThrows} from './common'
 

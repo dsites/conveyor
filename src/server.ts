@@ -15,7 +15,7 @@ import * as featureFlags from './feature-flags'
 import * as tags from './tags'
 import * as userData from './user-data'
 
-import {JsonRpcAuth, requestLogger, rpcLogger} from '@steemit/koa-jsonrpc'
+import {JsonRpcAuth, requestLogger, rpcLogger} from 'dpay-json-rpc'
 import {db} from './database'
 import {logger} from './logger'
 

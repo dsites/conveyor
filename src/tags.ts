@@ -3,7 +3,7 @@
  * @author Johan Nordberg <johan@steemit.com>
  */
 
-import {JsonRpcAuthMethodContext as JCtx, JsonRpcError} from '@steemit/koa-jsonrpc'
+import {JsonRpcAuthMethodContext as JCtx, JsonRpcError} from 'dpay-json-rpc'
 import * as config from 'config'
 import {Op} from 'sequelize'
 

@@ -8,11 +8,11 @@ import * as Sequelize from 'sequelize'
 
 import {logger as baseLogger} from './logger'
 
-const logger = baseLogger.child({module: 'database'})
+// const logger = baseLogger.child({module: 'database'})
 const dbConfig = config.get('database') as Sequelize.Options
-dbConfig.logging = (msg) => logger.debug(msg)
-
-logger.info('setting up database with dialect %s', dbConfig.dialect)
+// dbConfig.logging = (msg) => logger.debug(msg)
+//
+// logger.info('setting up database with dialect %s', dbConfig.dialect)
 
 export const db = new Sequelize(config.get('database'))
 

@@ -1,5 +1,5 @@
 
-import {JsonRpcAuthMethodContext as JCtx, JsonRpcError} from '@steemit/koa-jsonrpc'
+import {JsonRpcAuthMethodContext as JCtx, JsonRpcError} from 'dpay-json-rpc'
 import * as config from 'config'
 import {createHash} from 'crypto'
 import * as rjs from 'random-js'

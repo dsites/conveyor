@@ -1,7 +1,7 @@
 num_workers = 0
 port = 8080
-rpc_node = 'https://api.steemit.com'
-admin_role = 'steem'
+rpc_node = 'https://dpayd.dpays.io'
+admin_role = 'dpay'
 [storage]
 type = 's3'
 [[log]]

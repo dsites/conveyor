@@ -1,6 +1,6 @@
 import * as assert from 'assert'
-import {utils} from '@steemit/koa-jsonrpc'
-import {sign as signRequest} from '@steemit/rpc-auth'
+import {utils} from 'dpay-json-rpc'
+import {sign as signRequest} from 'dpay-rpc-auth'
 
 export async function assertThrows(block: () => Promise<any>) {
     try {
