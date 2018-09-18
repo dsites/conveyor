@@ -2,6 +2,9 @@
 dSite API
 ========
 
+Our native API cluster for [dSite](https://dsite.io) can be accessed via: [https://api.dsite.io](https://api.dsite.io).
+On Steemit's network, this was formerly known as "Conveyor". 
+
 Feature flags
 -------------
 
